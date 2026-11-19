@@ -100,3 +100,7 @@ install.sh / install.ps1  复制到 ~/.dsh/skills/ 的安装脚本
 - 仓库内不含密钥；`.gitignore` 会挡住本地生成的视频、日志与临时 Key 文件。
 - 脚本只在被要求时联网：`check` 会做一次**零计费**自检（空 prompt，任务在校验阶段失败）。
 - 平台对 Wan 系列有独立的服务开关；403 `AccessDenied` 时先确认账号是否开通该服务。
+
+## License
+
+[MIT](LICENSE) © 2026 JasonTAO (JacksonLyon)

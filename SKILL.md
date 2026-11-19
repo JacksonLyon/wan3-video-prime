@@ -6,6 +6,7 @@ metadata:
   author: "本地自建"
   model: "wan3.0-video-prime"
   updated: "2026-11-20"
+  license: "MIT"
 ---
 
 # 万相 3.0-Prime 视频生成
