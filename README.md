@@ -2,7 +2,7 @@
 
 用**千问AI平台**（QwenCloud / 千问）按量计费 Key 调用 `wan3.0-video-prime` 生成视频的 DeepSeek Harness 技能：文生视频 / 首帧图生视频，时长 ≤ 30 秒，480P / 720P / 1080P。
 
-> 本仓库只放技能本体与调用脚本，**不放任何 API Key**。Key 由使用者的 DSH 凭据库提供。
+> 仓库已开源（Public），克隆即可用。本仓库只放技能本体与调用脚本，**不放任何 API Key**。Key 由使用者的 DSH 凭据库提供。
 
 ## 硬性规则（随技能移植，任何主机都不放宽）
 
@@ -24,10 +24,10 @@
 
 ```bash
 # macOS / Linux
-git clone https://github.com/<你的账号>/wan3-video-prime.git ~/.dsh/skills/wan3-video-prime
+git clone https://github.com/JacksonLyon/wan3-video-prime.git ~/.dsh/skills/wan3-video-prime
 
 # Windows PowerShell
-git clone https://github.com/<你的账号>/wan3-video-prime.git "$env:USERPROFILE\.dsh\skills\wan3-video-prime"
+git clone https://github.com/JacksonLyon/wan3-video-prime.git "$env:USERPROFILE\.dsh\skills\wan3-video-prime"
 ```
 
 或用仓库自带安装脚本：
